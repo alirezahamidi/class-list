@@ -1,10 +1,10 @@
 {
-  "name": "class-list",
+  "name": "class-list-joiner",
   "version": "1.0.0",
   "description": "A string joiner that can unlock the ability to use react-like frameworks multiple classes on single element without extra work",
   "main": "index.js",
   "scripts": {
-    "test": "classList('class-1','class-2')"
+    "test": "ClassList('class-1','class-2')"
   },
   "keywords": [
     "classList",
@@ -16,5 +16,8 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.3.2"
+  },
+  "repository": {
+    "url": "https://github.com/alirezahamidi/class-list-joiner.git"
   }
 }

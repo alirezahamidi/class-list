@@ -3,13 +3,18 @@ A string joiner that can unlock the ability to use react-like frameworks multipl
 
 ## Installation
 ```
-$npm i class-list --save
+$npm i class-list-joiner --save
 ```
 ## Usage
 
 ```
-<div className={ClassList(style.componentContainer,isBoldFont?style.bold:null)}>
-</div>
+import ClassList from 'class-list-joiner';
+import style from './styles.module.css';
+
+return (
+    <div className={ClassList(style.componentContainer,isBoldFont?style.bold:null)}>
+    </div>
+)
 ```
 
 by this code in react and false parameter for the `isBold` variable you will get this output :
